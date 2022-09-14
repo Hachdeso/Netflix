@@ -1,0 +1,121 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://www5.yggtorrent.fi/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "ygg_=fmr9eas2hihhvabp5qe23q6uf6ailuq6"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "username",
+    "type": "inputstring",
+    "name": "Username",
+    "value": "alexidre36"
+  },
+  {
+    "id": "password",
+    "type": "inputstring",
+    "name": "Password",
+    "value": "CfDJ8OYPzzfV3ZlIojOwKLkQTJSPgwuwshGpBYiY8mKp7f5kjlM3sWNXXAPRcmtTjnCI0GYejB1Wb9Wr6pnm34CZaMOvJkXeBZE9v1br8Cqy3J6ovcN-YcnY1aNvpFF2cCGmsA"
+  },
+  {
+    "id": "catégorie",
+    "type": "inputselect",
+    "name": "Catégorie",
+    "value": "all",
+    "options": {
+      "all": "Tous",
+      "2145": "Film/Vidéo",
+      "2139": "Audio",
+      "2144": "Application",
+      "2142": "Jeu vidéo",
+      "2140": "eBook",
+      "2141": "Emulation",
+      "2143": "GPS",
+      "2188": "XXX"
+    }
+  },
+  {
+    "id": "trytonormalizereleasesnamesbymovingyearafterthetitle",
+    "type": "inputbool",
+    "name": "Try to normalize releases names by moving year after the title",
+    "value": false
+  },
+  {
+    "id": "replacemultibyanotherlanguageinreleasename",
+    "type": "inputbool",
+    "name": "Replace MULTI by another language in release name",
+    "value": false
+  },
+  {
+    "id": "replacemultibythislanguage",
+    "type": "inputselect",
+    "name": "Replace MULTI by this language",
+    "value": "MULTI.VOSTFR",
+    "options": {
+      "FRENCH": "FRENCH",
+      "MULTI.FRENCH": "MULTI.FRENCH",
+      "ENGLISH": "ENGLISH",
+      "MULTI.ENGLISH": "MULTI.ENGLISH",
+      "VOSTFR": "VOSTFR",
+      "MULTI.VOSTFR": "MULTI.VOSTFR"
+    }
+  },
+  {
+    "id": "replacevostfrwithenglish",
+    "type": "inputbool",
+    "name": "Replace VOSTFR with ENGLISH",
+    "value": false
+  },
+  {
+    "id": "enhancesonarrcompatibilitywithanimebyrenamingepisode(xxxtoexxx).worksonlyifepisodeisattheendofthequery.candisturbmoviessearch.(backtothefuture3->backtothefuturee3)",
+    "type": "inputbool",
+    "name": "Enhance sonarr compatibility with anime by renaming episode (xxx to exxx). Works only if episode is at the end of the query. Can disturb movies search. (back to the future 3 -> back to the future e3)",
+    "value": false
+  },
+  {
+    "id": "extendthesonarrcompatibilitywithanimeupto4digits.thiswillbreakallsearchesandresulttitleswhichcontainyears.",
+    "type": "inputbool",
+    "name": "Extend the sonarr compatibility with anime up to 4 digits. This WILL break all searches and result titles which contain years.",
+    "value": false
+  },
+  {
+    "id": "sortrequestedfromsite",
+    "type": "inputselect",
+    "name": "Sort requested from site",
+    "value": "publish_date",
+    "options": {
+      "publish_date": "created",
+      "seed": "seeders",
+      "size": "size",
+      "name": "title"
+    }
+  },
+  {
+    "id": "orderrequestedfromsite",
+    "type": "inputselect",
+    "name": "Order requested from site",
+    "value": "desc",
+    "options": {
+      "desc": "desc",
+      "asc": "asc"
+    }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]
